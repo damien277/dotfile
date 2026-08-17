@@ -1,0 +1,14 @@
+name = "Mining Website"
+description = "Mining Website layout"
+working_dir = "~/workspace/botanika-mining-website"   # ~ and $VARS expand
+
+[[tabs]]
+name = "pi"
+command = "pi"
+
+[[tabs]]
+name = "vim"
+command = "vim"
+
+[[tabs]]
+name = "terminal"   # no command — just an empty shell

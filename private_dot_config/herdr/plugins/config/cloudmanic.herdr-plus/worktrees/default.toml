@@ -1,0 +1,16 @@
+repo = "*"
+
+[[tabs]]
+name = "pi"
+command = "pi"
+
+[[tabs]]
+name = "vim"
+command = "nvim ."
+
+[[tabs]]
+name = "terminal"
+
+[[tabs]]
+name = "dev"
+command = "npm run dev"

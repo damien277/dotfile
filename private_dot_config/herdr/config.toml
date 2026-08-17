@@ -1,0 +1,61 @@
+onboarding = false
+[keys]
+prefix = "ctrl+a"
+reload_config = "prefix+r"
+goto = "prefix+s"
+new_workspace = "prefix+shift+w"
+rename_workspace = "prefix+$"
+rename_tab = "prefix+,"
+split_vertical = "prefix+|"
+zoom = "prefix+m"
+resize_mode = "prefix+R"
+navigate_workspace_up = "alt+k"
+navigate_workspace_down = "alt+j"
+focus_pane_left="alt+h"
+focus_pane_right="alt+l"
+focus_pane_up="alt+k"
+focus_pane_down="alt+j"
+
+[ui.toast]
+delivery = "system"
+
+[ui]
+show_agent_labels_on_pane_borders = true
+
+[[keys.command]]
+key = "ctrl+r"
+type = "plugin_action"
+command = "persiyanov.reviewr.toggle"
+
+# Override herdr's built-in "new worktree" key (prefix+shift+g) with worktrunk's
+# default-branch switch/create picker:
+[[keys.command]]
+key = "prefix+shift+g"
+type = "plugin_action"
+command = "worktrunk.open"
+description = "Worktree: switch / create from default branch"
+
+# Optional: bind current-branch creation separately.
+[[keys.command]]
+key = "prefix+shift+c"
+type = "plugin_action"
+command = "worktrunk.open-current"
+description = "Worktree: switch / create from current branch"
+
+[[keys.command]]
+key = "prefix+shift+d"
+type = "plugin_action"
+command = "worktrunk.remove"
+description = "Worktree: remove"
+
+[[keys.command]]
+key = "prefix+up"
+type = "plugin_action"
+command = "cloudmanic.herdr-plus.projects"
+description = "herdr-plus: projects"
+
+[[keys.command]]
+key = "prefix+down"
+type = "plugin_action"
+command = "cloudmanic.herdr-plus.quick-actions"
+description = "herdr-plus: quick actions"

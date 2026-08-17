@@ -1,0 +1,14 @@
+# Dùng repo = "*" để áp dụng chung cho tất cả các dự án của bạn
+repo = "*"
+
+[[tabs]]
+name = "vim"
+command = "vim"
+
+[[tabs]]
+name = "pi"
+command = "pi"  # Hoặc "pi" tùy tool bạn xài
+
+[[tabs]]
+name = "terminal"
+# Không điền command -> Mở shell trống mặc định
