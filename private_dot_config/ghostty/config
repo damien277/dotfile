@@ -1,0 +1,9 @@
+# command = tmux new-session -A -s main
+command = herdr
+background-opacity = 0.95
+background-blur=true
+background-blur-radius = 10
+window-decoration = false
+theme = Catppuccin Mocha
+
+
