@@ -1,0 +1,42 @@
+{
+  "lastChangelogVersion": "0.84.1",
+  "defaultProvider": "openai-codex",
+  "defaultModel": "gpt-5.6-luna",
+  "defaultThinkingLevel": "medium",
+  "hideThinkingBlock": false,
+  "theme": "dark",
+  "packages": [
+    "npm:pi-teams@0.9.14",
+    "npm:pi-mcp-adapter@2.26.0",
+    "git:github.com/ghoseb/pi-askuserquestion",
+    "npm:@aliou/pi-guardrails@0.17.0",
+    "npm:@marckrenn/pi-sub-bar@1.5.0",
+    "npm:@heyhuynhgiabuu/pi-search@0.3.0",
+    "npm:@sting8k/pi-vcc@0.6.0",
+    "npm:@zenobius/pi-worktrees@0.5.1",
+    "npm:pi-messenger-bridge@0.4.0",
+    "npm:pi-gitnexus@0.6.4",
+    "npm:pi-rtk-optimizer@0.9.0",
+    "git:github.com/jonjonrankin/pi-caveman",
+    "npm:pi-mono-figma@0.2.2",
+    "npm:@pi-stef/atlassian@0.4.3",
+    "npm:pi-provider-kiro@0.10.0",
+    "npm:@heyhuynhgiabuu/pi-task@0.4.4",
+    "npm:pi-antigravity@0.3.0",
+    "npm:pi-fastboot@1.0.0"
+  ],
+  "enabledModels": [
+    "kiro/claude-sonnet-4-5",
+    "opencode-go/minimax-m3",
+    "opencode-go/deepseek-v4-pro",
+    "opencode-go/deepseek-v4-flash",
+    "Steyg/gpt-5.6-sol",
+    "Steyg/gpt-5.6-terra",
+    "Steyg/gpt-5.6-luna",
+    "opencode-go/kimi-k3",
+    "opencode/deepseek-v4-flash-free"
+  ],
+  "images": {
+    "autoResize": false
+  }
+}
